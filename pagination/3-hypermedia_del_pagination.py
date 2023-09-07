@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """Deletion-resilient hypermedia pagination
 """
-
 import csv
 import math
 from typing import List, Dict, Tuple
@@ -15,7 +14,6 @@ class Server:
     def __init__(self):
         self.__dataset = None
         self.__indexed_dataset = None
-
 
         return {
             "index": index,
