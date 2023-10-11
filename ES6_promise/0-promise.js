@@ -3,7 +3,7 @@ function getResponseFromAPI() {
     setTimeout(() => {
       resolve();
     }, 10);
-    });
+  });
 }
 
 export default getResponseFromAPI;
